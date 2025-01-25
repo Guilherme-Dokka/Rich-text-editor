@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="./script/script.js" defer></script>
+    <link rel="stylesheet" href="./style/Page.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="page" >
+      <header id="header">
+        
+        <button id="type"><i data-lucide="heading-1" height="18px" width="18px"></i></button>
+        <button id="bold"><i data-lucide="bold"height="18px" width="18px"></i></button>
+        <button id="italic"><i data-lucide="italic" height="18px" width="18px"></i></button>
+        <button id="code"><i data-lucide="chevron-left" height="18px" width="18px"></i> <i data-lucide="chevron-right" height="18px" width="18px"></i></i></button>
+        <button id="list"><i data-lucide="list" height="18px" width="18px"></i></button>
+        <button id="underline"><i data-lucide="underline" height="18px" width="18px"></i></button>
+        <button id="squote"><i data-lucide="message-square-quote" height="18px" width="18px"></i></button>
+        <button id="link"><i data-lucide="link-2" height="18px" width="18px"></i></button>
+      </header>
+      <div  contenteditable="true"
+      name="text-transform" id="text-transform"></div>
+    </div>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
