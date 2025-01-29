@@ -56,9 +56,26 @@ button:hover{
   outline: none;
 }
 
+.h2{
+  font-size: 24pt;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.italic{
+font-style: italic;
+}
+
 .enfase{
-  border-left: 5px solid rgba(231, 6, 231, 0.795);
-  padding: 18px 48px;
+  margin-left: 16;
+  border-left: 4px solid rgba(231, 6, 231, 0.795);
+  padding: 18px 24px;
   background-color: rgba(230, 230, 230, 0.466);
   display: flex;
+}
+
+a{
+  cursor: pointer;
 }
